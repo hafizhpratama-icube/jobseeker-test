@@ -31,6 +31,8 @@ SELECT inventory_code, final_stock FROM stock WHERE stock_code IN ( SELECT MAX(s
 ```
 
 3. Frontend test
+You can see frontend test page on frontend.html file.
+
 Desktop version
 ![Test Frontend](https://user-images.githubusercontent.com/79433320/170823459-2b676c40-96b2-4782-ae40-6360f584a8c2.png)
 
