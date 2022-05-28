@@ -1,0 +1,57 @@
+.navbar-1-1.navbar-light .navbar-nav .nav-link {
+  color: #092a33;
+  transition: 0.3s;
+}
+
+.navbar-1-1.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.navbar-1-1 .btn-get-started {
+  border-radius: 20px;
+  padding: 12px 30px;
+  font-weight: 500;
+}
+
+.navbar-1-1 .btn-get-started-blue {
+  background-color: #0ec8f8;
+  transition: 0.3s;
+}
+
+.navbar-1-1 .btn-get-started-blue:hover {
+  background-color: #3ad8ff;
+  transition: 0.3s;
+}
+
+.header-jobseeker{
+    background-image: url(../img/header.png);
+}
+
+.header-about-us{
+    background-image: url(../../assets/img/background-about-us.png);
+}
+
+.h1-header{
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.p-content{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+@media (min-width: 375px) {
+    .margin-0{
+        margin-top: 0px!important;
+    }
+    button.navbar-toggler {
+        background: #e4007e!important;
+    }
+    .hp-text-center{
+        text-align: center!important;
+    }
+    .padding-1{
+        padding-top: 32px;
+    }
+}
