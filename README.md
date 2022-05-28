@@ -19,7 +19,7 @@ Delete data
 Data with id 6 deleted.
 
 
-b. 2.	Make a MySQL database query to get the latest ending stock
+b.	Make a MySQL database query to get the latest ending stock
 First, please import database goods.sql
 
 ![image](https://user-images.githubusercontent.com/79433320/170823394-e88cbf74-3cc5-494f-aaab-05e51913d219.png)
@@ -29,3 +29,10 @@ run this query:
 ```bash
 SELECT inventory_code, final_stock FROM stock WHERE stock_code IN ( SELECT MAX(stock_code) FROM stock GROUP BY inventory_code ) ORDER BY inventory_code asc
 ```
+
+3. Frontend test
+Desktop version
+![Test Frontend](https://user-images.githubusercontent.com/79433320/170823459-2b676c40-96b2-4782-ae40-6360f584a8c2.png)
+
+Mobile version
+![Responsive](https://user-images.githubusercontent.com/79433320/170823476-2bbb37d1-0506-4536-8bbc-e2c9438b5225.png)
